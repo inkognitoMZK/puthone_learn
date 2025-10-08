@@ -26,7 +26,6 @@ def main():
             new_path = os.path.join(new_folder, filename)
             shutil.move(old_path, new_path)
             print(f"Файл перемещён: {filename}")
-            print('sdfsd')
 
     print(f"\nВсе файлы .doc и .docx перемещены в папку:\n{new_folder}")
     input("\nНажмите Enter для выхода...")
